@@ -32,5 +32,11 @@ namespace HumorHacker.Controllers
 
             return View();
         }
+        public ActionResult Store()
+        {
+            ViewBag.Message = "Your Store-page.";
+
+            return View();
+        }
     }
 }
