@@ -1,0 +1,19 @@
+﻿@model List<HumorHacker.Models.Product>
+
+@{
+    ViewBag.Title = "Store";
+}
+
+<h2>Store</h2>
+
+
+@foreach (var p in Model)
+{
+<div class="card">
+    <p>@p.Name</p>
+    <p>@p.Category</p>
+    <p>@p.Price</p>
+</div>
+}
+
+
