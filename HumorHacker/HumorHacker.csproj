@@ -130,6 +130,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ItemsController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Controllers\ProductCRUDController.cs" />
     <Compile Include="DAL\ProductContext.cs" />
     <Compile Include="DAL\ProductInitializer.cs" />
     <Compile Include="Global.asax.cs">
@@ -173,9 +174,6 @@
     <Content Include="Images\rocks.jpg" />
     <Content Include="Images\skyp close .JPG" />
     <Content Include="Images\stackoverflow entire career.JPG" />
-    <Content Include="Images\team1.jpg" />
-    <Content Include="Images\team2.jpg" />
-    <Content Include="Images\team3.jpg" />
     <Content Include="Images\Thanoes code.JPG" />
     <Content Include="Images\Typo .JPG" />
     <Content Include="Images\wake up fix bug .PNG" />
@@ -212,6 +210,11 @@
     <Content Include="Views\Product\Product.cshtml" />
     <Content Include="Views\Code\Code.cshtml" />
     <Content Include="Views\Items\Shirts.cshtml" />
+    <Content Include="Views\ProductCRUD\Create.cshtml" />
+    <Content Include="Views\ProductCRUD\Delete.cshtml" />
+    <Content Include="Views\ProductCRUD\Details.cshtml" />
+    <Content Include="Views\ProductCRUD\Edit.cshtml" />
+    <Content Include="Views\ProductCRUD\Index.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

@@ -5,6 +5,7 @@ using System.Web;
 using HumorHacker.Models;
 using System.Data.Entity;
 
+
 namespace HumorHacker.DAL
 {
 
@@ -18,7 +19,7 @@ namespace HumorHacker.DAL
             new Product{Name="Coffee mug",Category="Swag", Price=750},
             new Product{Name="mouse pad",Category="Swag", Price=750},
             new Product{Name="Computer Desk",Category="Office", Price=750},
-            new Product{Name="Phone Charger",Category="Misc.", Price=750},
+            new Product{Image=$"/Images/debugging on toilet meme.JPG", Name="Phone Charger",Category="Misc.", Price=750},
 
             };
 
